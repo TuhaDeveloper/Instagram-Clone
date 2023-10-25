@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+
+@media screen and (max-width:470px) {
+
+  .App {
+    position: relative;
+  }
+
+  .homeSection {
+    display: none;
+  }
+
+  .postHead h6 {
+    display: none;
+  }
+}

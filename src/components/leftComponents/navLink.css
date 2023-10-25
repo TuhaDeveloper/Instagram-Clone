@@ -1,0 +1,28 @@
+.navIcon {
+    display: flex;
+    align-items: center;
+    padding: .6rem;
+    margin: 0 .8rem .4rem 1rem;
+    border-radius: 10px;
+    transition: all .4s;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.navIcon:hover {
+    background-color: rgb(221, 224, 226);
+}
+
+.navIcon p {
+    margin-left: .5rem;
+}
+
+@media screen and (max-width:1000px) {
+    .navIcon p {
+        display: none;
+    }
+
+    .navIcon {
+        justify-content: center;
+    }
+}

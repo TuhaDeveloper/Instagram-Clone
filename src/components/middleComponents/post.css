@@ -1,0 +1,72 @@
+.post {
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+
+.postHead {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+
+}
+
+.postHead .firstdiv {
+    display: flex;
+    align-items: center;
+    padding: .1rem;
+    flex: 1;
+}
+
+.postHead h5 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+
+.postLikes {
+    display: flex;
+    padding: .5rem 0;
+
+}
+
+.leftLikes {
+    display: flex;
+    flex: 1;
+    margin-left: -10px;
+}
+
+.leftLikes .icon {
+    padding: 0 5px;
+}
+
+.commentSection {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.commentSection a {
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+}
+
+.commentSection h6,
+input {
+    /* padding: 0; */
+    margin: .2rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: .3rem .1rem;
+
+}
+
+@media screen and (max-width:779px) {
+
+    .post {
+        width: 70%;
+    }
+}

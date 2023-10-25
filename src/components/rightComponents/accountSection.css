@@ -1,0 +1,53 @@
+.accountSection {
+    width: 30%;
+    margin-top: 2rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.profileText {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.profileText h5,
+p {
+    margin: 0;
+}
+
+.profileText p {
+    color: gray;
+}
+
+.suggetionTitle {
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    padding: 10px 0;
+}
+
+.suggetionTitle a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.suggetionTitle a:hover {
+    color: gray;
+}
+
+
+@media screen and (max-width:1160px) {
+    .accountSection {
+        display: none;
+    }
+}
